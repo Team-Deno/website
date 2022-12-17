@@ -12,10 +12,12 @@ const Navbar = () => {
     <div className='flex justify-between items-left h-24 max-w-[1240px] mx-auto px-4 text-white'>
       <h1 className='w-full text-3xl mt-[5px] font-bold text-[#00df9a]'>Pandora OS</h1>
       <ul className='hidden md:flex'>
-        <li className='p-4 hover:text-blue-700 cursor-pointer'>Home</li>
-        <li className='p-4 hover:text-blue-700 cursor-pointer'>Features</li>
-        <li className='p-4 hover:text-blue-700 cursor-pointer'>About</li>
-        <li className='p-4 hover:text-blue-700 cursor-pointer'>Legal</li>
+        <li className='p-4 hover:text-blue-700 cursor-pointer'>
+          <a href="#home">Home</a></li>
+        <li className='p-4 hover:text-blue-700 cursor-pointer'><a href="#features">Features</a></li>
+        <li className='p-4 hover:text-blue-700 cursor-pointer'><a href="#about">About</a></li>
+        <li className='p-4 hover:text-blue-700 cursor-pointer'><a href="#contact">Contact</a></li>
+        <li className='p-4 hover:text-blue-700 cursor-pointer'><a href='https://katb.in/ulazeciviqe'>Instructions</a></li>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
           {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}

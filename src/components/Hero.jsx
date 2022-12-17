@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 const Hero = () => {
   return (
     <>
-    <div className="flex h-[481px] mt-0">
+    <div id="home" className="flex h-[481px] mt-0">
     <div className="float-right">
       <Fade left>
         <img className='h-auto mt-[2px] px-11 pt-16' width="438" alt="peek_device-removebg-preview" src="https://user-images.githubusercontent.com/90026952/208230695-ff4dd622-ae83-4732-862b-e660c65c8787.png"></img>
