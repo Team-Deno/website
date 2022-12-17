@@ -1,4 +1,5 @@
 import React from 'react';
+import Roll from 'react-reveal/Roll';
 
 const Analytics = () => {
   return (
@@ -11,7 +12,9 @@ const Analytics = () => {
             You can differentiate your customized operating features by adding features that are not avaliable in other operating systems. These include new tools or utilities oe innovative ways of interacting with the system. 
           </p>
         </div>
-        <img className='inline-block ml-[100px] my-2 fl ' width="300" src='https://user-images.githubusercontent.com/90026952/208234625-1febbc9b-6087-4907-b37c-15bcc8ea8e2b.png' alt='/' />
+        <Roll right>
+          <img className='inline-block ml-[100px] my-2 fl ' width="300" src='https://user-images.githubusercontent.com/90026952/208234625-1febbc9b-6087-4907-b37c-15bcc8ea8e2b.png' alt='/' />
+        </Roll>
       </div>
     </div>
     </>
