@@ -10,7 +10,7 @@ const Power = () => {
             <img className='w-[500px] mx-auto my-4' src='https://user-images.githubusercontent.com/90026952/208236355-0963cee9-d9be-48eb-a30d-d929d53fe8df.jpeg' alt='/' />
         </Zoom>
         <div className='flex flex-col justify-center'>
-          <h1 className='md:text-4xl text-[#00df9a] sm:text-3xl text-2xl font-bold py-2'>Power to you</h1>
+          <h1 className='md:text-4xl text-[#00df9a] sm:text-3xl text-2xl font-bold py-2 ml-[100px]'>Power to you</h1>
           {/* <p className='text-[#00df9a] font-bold '>Power To You</p> */}
           <p className='text-white'>
                     Our open-source apps are here to help you get through the day.

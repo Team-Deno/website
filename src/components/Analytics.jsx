@@ -7,7 +7,7 @@ const Analytics = () => {
    <div className='w-full bg-white py-16 px-4'>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
         <div className='flex flex-col justify-center mx-8'>
-          <h1 className='md:text-4xl text-[#00df9a] sm:text-3xl text-2xl font-bold py-2'>Add Custom Features</h1>
+          <h1 className='md:text-4xl text-[#00df9a] sm:text-3xl text-2xl font-bold py-2 ml-[70px]'>Add Custom Features</h1>
           <p className='text-black'>
             You can differentiate your customized operating features by adding features that are not avaliable in other operating systems. These include new tools or utilities oe innovative ways of interacting with the system. 
           </p>
