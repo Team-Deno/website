@@ -33,8 +33,10 @@ const Hero = () => {
         </div>
         <p className='md:text-2xl text-xl font-bold ml-[60px] text-gray-500'>Free open-source operating system for variable devices.</p>
         <div className="img-btn flex">
-          <button className='bg-[#00df9a] w-[200px] rounded-full font-medium my-6 ml-[60px] py-3 text-black hover:text-white'>Download</button>
-          <a href='https://blog.realogs.in/getting-started-with-aosp/'>
+          <a href='https://drive.google.com/file/d/1tSvUgxaAdL3QJtKlLxTQk_FK1w80skFz/view?usp=share_link' target="_blank">
+            <button className='bg-[#00df9a] w-[200px] rounded-full font-medium my-6 ml-[60px] py-3 text-black hover:text-white'>Download</button>
+          </a>
+          <a href='https://blog.realogs.in/getting-started-with-aosp/' target="_blank">
             <button className=' bg-white w-[200px] rounded-full font-medium my-6 ml-[60px] py-3 text-[#00df9a] hover:text-black'>BLOG</button>
           </a>
         </div>
